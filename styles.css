@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.title-style {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Use bold weight */
+}
+.dropdown-style {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+.content-wrapper {
+  padding-left: 2rem; 
+  padding-right: 2rem; 
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+.tab-link {
+  color: #6c757d; /* Gray color for inactive tabs */
+  text-decoration: none;
+}
+.tab-link.active {
+  color: #ffffff; /* White color for active tab */
+  background-color: #6c757d; /* Gray background for active tab */
+  border-radius: .25rem;
+}
